@@ -14,12 +14,12 @@ jobs:
         with:
           action: issue_opened_create_card
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           TRELLO_API_KEY: ${{ secrets.TRELLO_API_KEY }}
           TRELLO_API_TOKEN: ${{ secrets.TRELLO_API_TOKEN }}
           # TRELLO_BOARD_ID must match a board. GH repo should connect
           # to exactly one board, but Trello board may connect to multiple
           # GH repositories.
-          TRELLO_BOARD_ID: BOARD-24-CHAR-LONG-ID
+          TRELLO_BOARD_ID: "63cfe9b27a5f84bd98549b16"
           # Backlog list ID
-          TRELLO_LIST_ID: LIST-24-CHAR-LONG-ID
+          TRELLO_LIST_ID: "63cfe9d192b9f4b2d57e0ed2"
