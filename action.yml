@@ -1,0 +1,13 @@
+name: 'Trello cards action'
+description: 'Create or move Trello cards based on Github events (issues, pull requests).'
+inputs:
+  action:
+    description: 'Desired action to do on a Card'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'refresh-cw'
+  color: 'blue'
