@@ -6,7 +6,7 @@ inputs:
     required: true
 runs:
   using: 'node12'
-  main: 'dist/dist/index.js'
+  main: 'dist/dist/dist/index.js'
 
 branding:
   icon: 'refresh-cw'
