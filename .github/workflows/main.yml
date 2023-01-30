@@ -6,6 +6,7 @@ on:
 
 jobs:
   create_trello_card_job:
+    if: github.event.label.name == 'important'
     runs-on: ubuntu-latest
     name: Create Trello Card
     steps:
