@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Create Trello Card
     steps:
-      - name: Call trello-github-actions
+      - name: Trello cards action
         uses: Yleisradio/github-action-trello-integration@v1.1.1
         with:
           action: issue_opened_create_card
