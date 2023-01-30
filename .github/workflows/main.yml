@@ -23,3 +23,6 @@ jobs:
           TRELLO_BOARD_ID: 63cfe9b27a5f84bd98549b16
           # Backlog list ID
           TRELLO_LIST_ID: 63cfe9d192b9f4b2d57e0ed2
+          TRELLO_ACTION_VERBOSE: true
+          TRELLO_API_DEBUG: true
+          GITHUB_API_DEBUG: true
