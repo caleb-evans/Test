@@ -1,3 +1,5 @@
+yle-gh-action--trello-integration
+GPL-2.0-or-later
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
