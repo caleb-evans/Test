@@ -5,7 +5,7 @@ inputs:
     description: 'Desired action to do on a Card'
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/dist/dist/index.js'
 
 branding:
